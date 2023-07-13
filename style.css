@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    backdrop-filter: blur(10px);
+}
+
+.Haupt-container{
+    display: flex;
+    height: 900px;
+    width: 800px;
+}
+
+.img-container{
+    flex-direction: column;
+    display: flex;
+    width: 500px;
+    height: 800px;
+}
+
+.img-container .box-image{
+    background-image: url('/img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    /* width: 500px;  */
+    width: 100%;
+    /* background-color: brown; */
+}
+
+.img-container .box-text{
+    height: 400px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.694);
+    position: relative;
+}
+.info-suscrib-container{
+    width: 500px;
+    height: 800px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.info-suscrib-container .linke-text .hr-1 {
+    height: 2px;
+    border: none;
+    margin-top: 210px;
+    margin-left: 20px;
+    width: 80%;
+    background-color: #C22DB2;
+}
+
+.info-suscrib-container .linke-text p {
+    font-size: 40px;
+    font-weight: 590;
+    margin-left: 18px;
+}
+
+.info-suscrib-container .linke-text .hr-2 {
+    height: 2px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 30%;
+    background-color: #C22DB2;
+}
+.info-suscrib-container .linke-text .hr-3 {
+    height: 2px;
+    border: none;
+    margin-top: 12px;
+    margin-left: 20px;
+    width: 20%;
+    background-color: #C22DB2;
+    margin-bottom: 15px;
+}
+.info-suscrib-container .linke-text .span-1 {
+    font-size: 13px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.info-suscrib-container .linke-text h4 {
+    font-size: 12px;
+}
+
+/*Button*/
+#subscrib-btn{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px 35px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #C22DB2;
+    font-size: 17px;
+}
+
+
+
+
+
+
+/*Zweite Seite zur Bezahlungsvorgang*/
+
+

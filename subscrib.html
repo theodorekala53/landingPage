@@ -8,80 +8,99 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="haupt-flex-container">
-        <div class="linke-box">
-            <div class="info-contact">
-                <div class="titel">
-                    <span class="span1">1</span>
-                    <span class="span2">Informations :</span>
-                </div>
-                <form action="#">
-                    <div class="user-details">
-                        <div class="input-box">
-                            <span class="details">Nom de famille</span>
-                            <input type="text" placeholder="Name eingeben" required>
-                        </div>
-                        <div class="input-box">
-                            <span class="details">prénom</span>
-                            <input type="text" placeholder="Vorname eingeben" required>
-                        </div>
-                        <div class="input-box">
-                            <span class="details">Email</span>
-                            <input type="text" placeholder="Email eingeben" required>
-                        </div>
-                        <div class="input-box">
-                            <span class="details">Numéro(whatsapp) !!!</span>
-                            <input type="text" placeholder="Nummer eingeben" required>
-                        </div>
-                        <div class="adresse-detail">
+    <div class="haupt-box">
+        <div class="haupt-flex-container">
+            <div class="linke-box">
+                <div class="info-contact">
+                    <div class="titel">
+                        <span class="span1">1</span>
+                        <span class="span2">Informations :</span>
+                    </div>
+                    <form action="#">
+                        <div class="user-details">
                             <div class="input-box">
-                                <span class="details">Rue*</span>
-                                <input type="text" placeholder="Straße eingeben" required>
+                                <span class="details">Nom de famille</span>
+                                <input type="text" placeholder="Name eingeben" required>
                             </div>
                             <div class="input-box">
-                                <span class="details">Numero</span>
+                                <span class="details">prénom</span>
+                                <input type="text" placeholder="Vorname eingeben" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Email</span>
+                                <input type="text" placeholder="Email eingeben" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Numéro(whatsapp) !!!</span>
                                 <input type="text" placeholder="Nummer eingeben" required>
                             </div>
-                            <div class="input-box">
-                                <span class="details">Code postal</span>
-                                <input type="text" placeholder="Plz eingeben" required>
-                            </div>
-                            <div class="input-box">
-                                <span class="details">Pays</span>
-                                <input type="text" placeholder="Land eingeben" required>
+                            <div class="adresse-detail">
+                                <div class="input-box">
+                                    <span class="details">Rue*</span>
+                                    <input type="text" placeholder="Straße eingeben" required>
+                                </div>
+                                <div class="input-box">
+                                    <span class="details">Numero</span>
+                                    <input type="text" placeholder="Nummer eingeben" required>
+                                </div>
+                                <div class="input-box">
+                                    <span class="details">Code postal</span>
+                                    <input type="text" placeholder="Plz eingeben" required>
+                                </div>
+                                <div class="input-box">
+                                    <span class="details">Pays</span>
+                                    <input type="text" placeholder="Land eingeben" required>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </form>
-            </div>
-            <div class="paye-mode">
-                <div class="titel">
-                    <span class="span1">2</span>
-                    <span class="span2">Modes de Paiement :</span>
+                    </form>
                 </div>
-                <div class="paypal">
+                <div class="paye-mode">
+                    <div class="titel">
+                        <span class="span1">2</span>
+                        <span class="span2">Modes de Paiement :</span>
+                    </div>
+                    <div class="paypal">
+                        <div class="box1">
+                            <input type="radio" name="PayPal" id="payPal">
+                            <label for="option1">PayPal</label>
+                        </div>
+                        <i class="fa-brands fa-paypal"></i>
+                    </div>
+                    <div class="virement">
+                        <div class="box2">
+                            <input type="radio" name="virement" id="virement">
+                            <label for="option2">Virement (Überweisung)</label>
+                        </div>
+                        <i class="fa-regular fa-credit-card"></i>
+                    </div>
+                </div>
+                <div class="commande">
+                    <div class="titel">
+                        <span class="span1">3</span>
+                        <span class="span2">Votre commande :</span>
+                    </div>
                     <div class="box1">
-                        <input type="radio" name="PayPal" id="payPal">
-                        <label for="option1">PayPal</label>
+                        <div class="box1-2">
+                            <input type="radio" name="Challenge-5" id="Challenge-5">
+                            <label for="option1">Challenge 8 semaines avec suivi de individuel</label>
+                        </div>
+                        <span>100€</span>
                     </div>
-                    <i class="fa-brands fa-paypal"></i>
-                </div>
-                <div class="virement">
                     <div class="box2">
-                        <input type="radio" name="virement" id="virement">
-                        <label for="option1">Virement (Überweisung)</label>
+                        <div class="box2-2">
+                            <input type="radio" name="Challenge-5" id="Challenge-5">
+                            <label for="option1">Challenge 8 semaines avec suivi de individuel</label>
+                        </div>
+                        <span>250€</span>
                     </div>
-                    <i class="fa-regular fa-credit-card"></i>
+                    <div class="box-button">
+                        <button class="valider">Valider</button>
+                    </div>
                 </div>
             </div>
-            <div class="commande">
-                <div class="titel">
-                    <span class="span1">3</span>
-                    <span class="span2">Votre commande :</span>
-                </div>
-            </div>
+            <div class="rechte-box"></div>
         </div>
-        <div class="rechte-box"></div>
     </div>
 </body>
 </html>

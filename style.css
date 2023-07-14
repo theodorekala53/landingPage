@@ -105,7 +105,7 @@ body{
     border: none;
     color: white;
     cursor: pointer;
-    background-color: #C22DB2;
+    background: linear-gradient(135deg, #0b98f6, #7a2f97, #a93fd3);
     font-size: 17px;
 }
 
@@ -137,10 +137,10 @@ body{
     align-items: center;
     display: flex;
     width: 100%;
-    /* font-weight:; */
 }
 .haupt-flex-container .linke-box .titel .span1{
     margin-right: 30px;
+    color: white;
     margin-left: 20px;
     height: 25px;
     width: 25px;
@@ -168,6 +168,10 @@ form .adresse-detail{
 .haupt-flex-container .linke-box form .user-details .input-box{
     width: calc(100% / 2 - 20px);
 }
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: #7C1E98;
+}
 
 form .adresse-detail{
     margin-top: 30px;
@@ -179,6 +183,12 @@ form .adresse-detail input{
     width: 100%;
     margin-top: 8px;
     margin-bottom: 5px;
+    padding: 0 7px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
 }
 form .adresse-detail .input-box{
     width: calc(100% / 2 - 20px);
@@ -194,6 +204,10 @@ form .details{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-top: 30px;
+}
+.paye-mode .titel{
+    margin-bottom: 30px;
 }
 .haupt-flex-container .paye-mode .paypal,
 .haupt-flex-container .paye-mode .virement{
@@ -226,14 +240,50 @@ padding: 8px;
 
 .haupt-flex-container .commande{
     height: 250px;
+    margin-top: 15px;
 }
 
+.commande .box1,
+.commande .box2{
+    margin-top: 25px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+}
+.commande .box2{
+    margin-top: 10px;
+}
 
+.commande .box1 input,
+.commande .box2 input{
+    margin-right: 5px;
+    border: 5px solid transparent;
+    background-color: #d9d9d9;
+}
 
+.commande .titel{
+    margin-top: 0px;
+}
 
 .haupt-flex-container .rechte-box{
-    background-color: #7C1E98;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6, #bd80d5);
     width: 355px;
+}
+
+.haupt-box button{
+    padding: 16px 60px;
+    margin-top: 20px;
+    font-size: 20px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6, #bd80d5);
+    border: none;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.box-button{
+    text-align: center;
 }
 
 

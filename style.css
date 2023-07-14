@@ -111,9 +111,129 @@ body{
 
 
 
-
-
-
 /*Zweite Seite zur Bezahlungsvorgang*/
+
+
+.haupt-flex-container{
+    display: flex;
+    background-color: white;
+    height: 900px;
+    width: 1000px;
+}
+
+.haupt-flex-container .linke-box{
+    width: 645px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+}
+
+.haupt-flex-container .info-contact{
+    height: 400px;
+    width: 100%;
+}
+
+.haupt-flex-container .linke-box .titel{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    /* font-weight:; */
+}
+.haupt-flex-container .linke-box .titel .span1{
+    margin-right: 30px;
+    margin-left: 20px;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    background-color: #C22DB2;
+    text-align: center;
+    font-weight: 800;
+    display: flex;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+}
+.haupt-flex-container .linke-box .titel .span2{
+    font-size: 22px;
+    font-weight: 800;
+}
+.haupt-flex-container .linke-box form .user-details,
+form .adresse-detail{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.haupt-flex-container .linke-box form .user-details .input-box{
+    width: calc(100% / 2 - 20px);
+}
+
+form .adresse-detail{
+    margin-top: 30px;
+}
+
+form .user-details input,
+form .adresse-detail input{
+    height: 35px;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+form .adresse-detail .input-box{
+    width: calc(100% / 2 - 20px);
+}
+
+form .details{
+    font-weight: 800;
+}
+
+.haupt-flex-container .paye-mode{
+    padding: 20px 0px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.haupt-flex-container .paye-mode .paypal,
+.haupt-flex-container .paye-mode .virement{
+width: 100%;
+background-color: #f5eff6;
+height: 60px;
+display: flex;
+align-items: center;
+font-weight: 900;
+justify-content: space-between;
+padding: 8px;
+}
+#payPal,
+#virement{
+    margin-right: 5px;
+}
+.payPal input,
+.virement input{
+    border-color: #C22DB2;
+}
+
+.paye-mode i{
+    font-size: 40px;
+    margin-right: 30px;
+    color: #3993DD;
+}
+.paye-mode .fa-credit-card{
+    color: #6A3E37;
+}
+
+.haupt-flex-container .commande{
+    height: 250px;
+}
+
+
+
+
+.haupt-flex-container .rechte-box{
+    background-color: #7C1E98;
+    width: 355px;
+}
 
 
